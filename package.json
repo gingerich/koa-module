@@ -1,0 +1,33 @@
+{
+  "name": "koa-module",
+  "version": "0.0.0",
+  "description": "Build modular composable web services",
+  "keywords": [
+    "koa",
+    "module",
+    "middleware",
+    "microservice",
+    "compose"
+  ],
+  "license": "MIT",
+  "author": "Marlin Gingerich <marlin.gingerich@gmail.com>",
+  "dependencies": {
+    "bottlejs": "^1.3.0",
+    "electrolyte": "^0.2.6",
+    "joi": "^9.0.1",
+    "koa": "^2.0.0",
+    "koa-compose": "^3.1.0",
+    "koa-convert": "^1.2.0",
+    "koa-except": "^0.0.2",
+    "koa-joi": "^1.0.0",
+    "koa-mount": "^2.0.0",
+    "koa-router": "https://github.com/gingerich/koa-router.git#v7-fix-prefix",
+    "lodash.get": "^4.4.1",
+    "path": "^0.12.7",
+    "require-directory": "^2.1.1",
+    "winston": "^2.2.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.5.3"
+  }
+}
